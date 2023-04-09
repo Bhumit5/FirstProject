@@ -119,6 +119,10 @@ footer {
   .nav-link:hover {
     background-color: var(--theme-l-brown);
   }
+  
+  .nav-link{
+    color: #dca950 !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
