@@ -1,0 +1,80 @@
+/** snacks card styles  */
+.card:not(#footer-content,.combo),#combo-style{
+    box-shadow: 0 0 1rem black;
+}
+
+.card:not(#footer-content){
+    background-color: var(--theme-l-brown);
+    border-color: var(--theme-brown) !important;
+}
+
+/** Text style */
+.brown-text{
+    color: var(--theme-l-brown) !important;
+}
+
+/** Snacks items background images */
+#pizza-menu{
+    background: var(--gradient),url("/Images/menu_pizza.jpeg")  center center/cover;
+}
+
+#burger-menu{
+    background: var(--gradient),url("/Images/menu_burger.jpeg") center center/cover;
+}
+
+#fries-menu{
+    background: var(--gradient),url("/Images/menu_fries.jpeg") center center/cover;
+}
+
+#sandwich-menu{
+    background: var(--gradient),url("/Images/menu_sandwich.jpeg") center center/cover;
+}
+
+#franky-menu{
+    background: var(--gradient),url("/Images/menu_franky.jpeg") center center/cover;
+}
+
+#puff-menu{
+    background: var(--gradient),url("/Images/menu_puff.jpeg") center center/cover;
+}
+
+#bhel-menu{
+    background: var(--gradient),url("/Images/menu_bhel.jpeg") center center/cover;
+}
+
+#pasta-menu{
+    background: var(--gradient),url("/Images/menu_pasta.jpeg") center center/cover;
+}
+
+#other-menu{
+    background: var(--gradient),url("/Images/menu_other.jpeg") center center/cover;
+}
+
+
+/** Beverage items background images */
+#tea-menu{
+    background: var(--gradient),url("/Images/menu_tea.jpeg") center center/cover;
+}
+
+#coffee-menu{
+    background: var(--gradient),url("/Images/menu_coffee.jpeg") center center/cover;
+}
+
+#juice-menu{
+    background: var(--gradient),url("/Images/menu_juice.jpeg") center center/cover;
+}
+
+#drink-menu{
+    background: var(--gradient),url("/Images/menu_can.jpeg") center center/cover;
+}
+
+
+/** Combo items background images*/
+.combo{
+    background-color: transparent !important;
+    color: var(--theme-l-brown);
+}
+
+#combo-style{
+    background: var(--gradient),url("/Images/combo-bg.jpg") center center/cover;
+}

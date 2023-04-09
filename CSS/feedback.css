@@ -1,0 +1,11 @@
+#feedback{
+    background-color: var(--theme-l-brown) !important;
+    caret-color: var(--theme-brown) ;
+    border: 1px solid var(--theme-brown);
+    color: var(--theme-brown);
+    padding: 1rem;
+}
+
+#feedback:focus{
+    box-shadow: none !important;
+}

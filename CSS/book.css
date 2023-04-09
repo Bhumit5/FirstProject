@@ -1,0 +1,27 @@
+.active:not(button,.noactive){
+    filter: brightness(0.8);
+}
+
+.fa{
+    font-size: 30px !important;
+}
+
+.table-title{
+    margin: 1rem 0;
+    font-size: larger;
+    background-color: var(--theme-l-brown);
+}
+
+.table-title,.table-number{
+    color: var(--theme-brown);
+    text-align: center;
+}
+
+#count{
+    accent-color: var(--theme-l-brown);
+    color: var(--theme-l-brown) !important;
+    background-color: var(--theme-l-brown) !important;
+    border: 1px solid var(--theme-brown) !important;
+    text-align: center;
+    width: 10% !important;
+}

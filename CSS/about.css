@@ -1,0 +1,147 @@
+/** Card styles  */
+.card:not(#footer-content) {
+  background-color: transparent;
+  border: none;
+}
+
+/** Font styles  */
+.set-text {
+  font-family: "Merienda", cursive !important;
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  border-left: 5px solid var(--theme-brown);
+  width: fit-content;
+  margin-bottom: 3%;
+  transition: background-color 1s ease-out;
+  cursor: default;
+}
+
+.main-text:hover {
+  background-color: #ffda9c4d;
+}
+
+#email{
+  color: var(--theme-brown) ;
+}
+
+/** Upper heading of the information */
+.left-side{
+  background-color: var(--theme-l-brown);
+  padding: 2%;
+  border: 5px double var(--theme-brown);
+  margin: 2rem;
+}
+
+.left-side::before {
+  content: "About Us";
+  position: absolute;
+  background-color: var(--theme-brown);
+  color: var(--theme-l-brown);
+  border-left: 5px solid #ffa10059;
+  font-family: "Merienda", cursive !important;
+  font-size: 2.5rem;
+  margin: 2% -4%;
+  top: -1%;
+  padding:0 1%;
+}
+
+#about-us::before {
+  content: "About Us";
+}
+
+#community::before{
+  content: "Join Us";
+}
+
+#customer-service::before {
+  content: "Customer Service";
+}
+
+/** DownSide circle style  */
+.left-side::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--theme-brown);
+  border-radius: 100%;
+  filter: opacity(0.8);
+  right: 8%;
+  bottom: 3%;
+}
+
+
+/** Media Queries */
+@media screen and (max-width: 992px) {
+  #about-img {
+    width: 30% !important;
+  }
+
+  .main-text {
+    font-size: 3rem;
+  }
+
+  .left-side::before {
+    top: 0.5%;
+    margin-left: -6%;
+    font-size: 2rem;
+  }
+
+  .left-side::after {
+    right: 10%;
+    bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #about-img {
+    visibility: hidden;
+  }
+
+  .main-text {
+    font-size: 2.5rem;
+  }
+
+  .left-side::before {
+    top: 2%;
+    font-size: 1.8rem;
+    margin: 0 -6%;
+  }
+
+  .left-side::after {
+    right: 16%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .left-side::before {
+    top: 1%;
+    font-size: 2rem;
+  }
+
+  .left-side::after {
+    right: 17%;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .left-side::before {
+    top: 2%;
+  }
+
+  .left-side::after {
+    right: 15%;
+    bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .left-side::after {
+    right: 18%;
+    bottom: 2%;
+  }
+}

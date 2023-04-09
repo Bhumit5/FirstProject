@@ -1,0 +1,183 @@
+/** Category buttons  */
+.nav-tabs .active {
+  background-color: var(--theme-brown) !important;
+  color: var(--theme-l-brown) !important;
+}
+
+/** Payment section  */
+.pay-text,option{
+  font-family: 'PT Serif', serif !important;
+}
+
+.modal-content,.modal input,.modal select{
+  background-color: var(--theme-l-brown);
+  color: var(--theme-brown);
+}
+
+select{
+  box-shadow: none !important;
+  border-color: var(--theme-brown) !important;
+}
+
+.modal-header{
+  border-bottom-color:var(--theme-brown) ;
+}
+
+.modal-footer{
+  border-top-color:var(--theme-brown);
+}
+
+.modal input,.modal select{
+  border: 1px solid var(--theme-brown);
+}
+.modal input{
+  border:none !important; 
+  border-bottom: 1px solid var(--theme-brown) !important;
+}
+
+::placeholder{
+  color: var(--theme-brown) !important;
+}
+
+option .disabled,select{
+  color: var(--theme-brown) !important;
+
+}
+
+.modal input:focus{
+  box-shadow: none;
+  background-color: transparent !important;
+  border: 1px solid var(--theme-brown);
+  caret-color: var(--theme-brown);
+  color: var(--theme-brown);
+  font-size: 0.9rem;
+  box-shadow: 0 1px 1px 0 var(--theme-brown);
+
+}
+
+#cvvNumber {
+  height: 45% !important;
+}
+
+.modal-content {
+  border: 3px solid var(--theme-brown);
+  border-radius: 10px;
+  
+}
+
+.modal-footer button{
+  background-color:#e9bf75 !important;
+}
+
+.modal-footer button:hover{
+  background-color:#f6c36b !important;
+  color: var(--theme-brown) !important;
+}
+
+/** Total bill section*/
+#total-bill,
+#total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#total-bill {
+  background-color: var(--theme-brown);
+  padding: 0.4rem;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+}
+
+#total,
+#money,
+#sign,
+#total-items,
+#items {
+  color: var(--theme-l-brown);
+}
+
+#total-items {
+  padding-left: 0.2rem;
+}
+
+#money,
+span,
+#items {
+  padding-left: 0.2rem;
+}
+
+.price,
+span,
+#total-items,
+#total {
+  font-size: 1rem;
+}
+
+#items,
+#money {
+  font-size: 1.2rem;
+}
+
+
+/** Cart button  */
+#cart-icon {
+  font-size: 1rem !important;
+}
+
+#order-btn{
+  border-color: rgb(67, 48, 9) !important;
+  background-color: #ffca6e !important;
+}
+
+#cart-tab:hover,
+#cart-li .active,
+#order-btn:hover {
+  background-color: #e9bf75 !important;
+  color: var(--theme-brown) !important;
+}
+
+/**Card properties  */
+.bg-brown {
+  background-color: var(--theme-l-brown);
+}
+
+.card {
+  background-color: var(--theme-l-brown);
+}
+
+.card-footer {
+  background-color: rgb(244 204 132) !important;
+}
+
+/** Item controller buttons  */
+#idbutton {
+  width: 6.8rem;
+}
+
+.inp-style {
+  background-color: var(--theme-l-brown) !important;
+  border: 1px solid var(--theme-brown) !important;
+  padding-left: 0.9rem;
+}
+
+/** Footer style  */
+footer {
+  margin-top: auto !important;
+}
+
+/** Media Query  */
+@media screen and (max-width: 370px) {
+  .price,
+  span,
+  #total-items,
+  #total {
+    font-size: 0.8rem;
+  }
+
+  #items,
+  #money {
+    font-size: 0.9rem;
+  }
+}
