@@ -113,8 +113,8 @@ footer {
   padding: 0.5rem 0;
 }
 
-.navbar-toggle:active{
-  color: var(--theme-l-brown) !important;
+.navbar-toggle:focus{
+  background-color: var(--theme-l-brown) !important;
 }
 
 /** Media queries  */
