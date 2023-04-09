@@ -17,7 +17,7 @@ color: var(--theme-brown);
 font-family: var(--theme-b-text);
 }
 
-button:not(.carousel-control-prev,.carousel-control-next,.more-button){
+button:not(.carousel-control-prev,.carousel-control-next,.more-button.navbar-toggler){
   background-color: var(--theme-l-brown) !important;
   color: var(--theme-brown) !important;
   border: 1px solid var(--theme-brown) !important;
