@@ -13,7 +13,7 @@ document.querySelector("#navbar").innerHTML =
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item nav-link-effect setUl">
-                <a id="home-option" class="nav-link nav-effect" href="home.html">Home</a>
+                <a id="home-option" class="nav-link nav-effect" href="index.html">Home</a>
             </li>
             
             <li class="nav-item nav-link-effect setUl">
