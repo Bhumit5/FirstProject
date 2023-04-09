@@ -113,6 +113,10 @@ footer {
   padding: 0.5rem 0;
 }
 
+.navbar-toggle:active{
+  color: var(--theme-l-brown) !important;
+}
+
 /** Media queries  */
 
 @media screen and (max-width: 992px) {
