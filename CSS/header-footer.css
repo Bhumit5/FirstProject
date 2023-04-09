@@ -29,9 +29,6 @@ button:not(.carousel-control-prev,.carousel-control-next,.more-button):hover{
   color: var(--theme-l-brown) !important;
 }
 
-.navbar-toggler:hover{
-box-shadow:none !important;
-}
 
 /** Scrollbar style  */
 ::-webkit-scrollbar{
@@ -132,7 +129,11 @@ footer {
   .navbar-toggler{
     border: none !important;
     background-color:var(--theme-l-brown) !important;
-    
+  }
+  
+  
+  .navbar-toggler:hover{
+  box-shadow:none !important;
   }
 }
 
