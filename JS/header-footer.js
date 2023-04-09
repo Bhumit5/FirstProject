@@ -13,30 +13,30 @@ document.querySelector("#navbar").innerHTML =
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item nav-link-effect setUl">
-                <a id="home-option" class="nav-link nav-effect" href="index.html">Home</a>
+                <a id="home-option" class="nav-link nav-effect" href="HTML/index.html">Home</a>
             </li>
             
             <li class="nav-item nav-link-effect setUl">
-                <a id="menu-option" class="nav-link nav-effect" href="menu.html">Menu</a>
+                <a id="menu-option" class="nav-link nav-effect" href="HTML/menu.html">Menu</a>
             </li>
 
             <li class="nav-item nav-link-effect setUl">
-                <a id="book-option" class="nav-link nav-effect" href="book.html">Book</a>
+                <a id="book-option" class="nav-link nav-effect" href="HTML/book.html">Book</a>
             </li>
                 
             <li class="nav-item nav-link-effect setUl">
-            <a id="order-option" class="nav-link nav-effect" href="order.html">Order</a>
+            <a id="order-option" class="nav-link nav-effect" href="HTML/order.html">Order</a>
             </li>
             
             <li class="nav-item nav-link-effect setUl">
-            <a id="about-option" class="nav-link nav-effect" href="about.html">Brown Love</a>
+            <a id="about-option" class="nav-link nav-effect" href="HTML/about.html">Brown Love</a>
             </li>
         </ul>
 
         <div class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-end flex-grow-1 pe-3">
         
             <li class="nav-item nav-link-effect setUl">
-                <a id="join-option" class="nav-link nav-effect" href="connect.html">Join us</a>
+                <a id="join-option" class="nav-link nav-effect" href="HTML/connect.html">Join us</a>
             </li>
 
         </div>
