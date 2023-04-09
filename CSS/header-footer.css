@@ -131,6 +131,8 @@ footer {
   
   .navbar-toggler{
     border: none !important;
+    background-color:var(--theme-l-brown) !important;
+    
   }
 }
 
