@@ -25,7 +25,7 @@ document.querySelector("#navbar").innerHTML =
             </li>
                 
             <li class="nav-item nav-link-effect setUl">
-            <a id="order-option" class="nav-link nav-effect" href="HTML/order.html">Order</a>
+            <a id="order-option" class="nav-link nav-effect" href="/order.html">Order</a>
             </li>
             
             <li class="nav-item nav-link-effect setUl">
