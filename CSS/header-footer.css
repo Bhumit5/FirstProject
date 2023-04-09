@@ -23,7 +23,7 @@ button:not(.carousel-control-prev,.carousel-control-next,.more-button){
   border: 1px solid var(--theme-brown) !important;
 }
 
-button:not(.carousel-control-prev,.carousel-control-next,.more-button):hover{
+button:not(.carousel-control-prev,.carousel-control-next,.more-button,.navbar-toggle):hover{
   border: 1px solid var(--theme-brown);
   background-color: var(--theme-brown) !important;
   color: var(--theme-l-brown) !important;
@@ -113,9 +113,6 @@ footer {
   padding: 0.5rem 0;
 }
 
-.navbar-toggle:hover,.navbar-toggle:focus{
-  background-color: var(--theme-l-brown) !important;
-}
 
 /** Media queries  */
 
