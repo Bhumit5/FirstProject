@@ -23,7 +23,7 @@ button:not(.carousel-control-prev,.carousel-control-next,.more-button.navbar-tog
   border: 1px solid var(--theme-brown) !important;
 }
 
-button:not(.carousel-control-prev,.carousel-control-next,.more-button,.navbar-toggler):hover{
+button:not(.carousel-control-prev,.carousel-control-next,.more-button):hover{
   border: 1px solid var(--theme-brown);
   background-color: var(--theme-brown) !important;
   color: var(--theme-l-brown) !important;
@@ -31,10 +31,6 @@ button:not(.carousel-control-prev,.carousel-control-next,.more-button,.navbar-to
 
 .navbar-toggler:hover{
 box-shadow:none !important;
-}
-
-.navbar-toggler{
-    border: none !important;
 }
 
 /** Scrollbar style  */
@@ -131,6 +127,10 @@ footer {
   
   .nav-link{
     color: #dca950 !important;
+  }
+  
+  .navbar-toggler{
+    border: none !important;
   }
 }
 
