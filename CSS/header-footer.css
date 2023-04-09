@@ -33,6 +33,10 @@ button:not(.carousel-control-prev,.carousel-control-next,.more-button,.navbar-to
 box-shadow:none !important;
 }
 
+.navbar-toggler{
+border:none !important
+}
+
 /** Scrollbar style  */
 ::-webkit-scrollbar{
   width: 0.2rem;
