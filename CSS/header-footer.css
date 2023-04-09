@@ -113,7 +113,7 @@ footer {
   padding: 0.5rem 0;
 }
 
-.navbar-toggle:hover{
+.navbar-toggle:hover,.navbar-toggle:focus{
   background-color: var(--theme-l-brown) !important;
 }
 
