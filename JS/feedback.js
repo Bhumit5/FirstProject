@@ -32,8 +32,12 @@ for (let response of feedback){
 }
 
 
-function addFeedback(){
-    let respond = document.getElementById("feedback").value;
-    showFeedback(respond);
-    document.getElementById("feedback").value = "";
+function addFeedback() {
+  let respond = document.getElementById("feedback").value;
+  let result = respond.search(/[a-zA-Z0-9]+/);
+  console.log(result);
+  if(result != -1){
+      showFeedback(respond);
+      document.getElementById("feedback").value = "";
+    } 
 }
