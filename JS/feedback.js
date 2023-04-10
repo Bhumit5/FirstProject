@@ -35,4 +35,5 @@ for (let response of feedback){
 function addFeedback(){
     let respond = document.getElementById("feedback").value;
     showFeedback(respond);
+    document.getElementById("feedback").value = "";
 }
