@@ -38,6 +38,6 @@ function addFeedback() {
   console.log(result);
   if(result != -1){
       showFeedback(respond);
-      document.getElementById("feedback").value = "";
     } 
+    document.getElementById("feedback").value = "";
 }
