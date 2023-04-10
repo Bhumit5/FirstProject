@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/CSS/media.css">
     <link rel="stylesheet" href="/CSS/book.css">
     <link rel="stylesheet" href="/CSS/feedback.css">
-    <link rel="icon" type="image" href="/images/fav.jpeg">
 
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&display=swap"
         rel="stylesheet">
@@ -29,16 +28,16 @@
 
     <div id="connect" class="container my-4 w-75">
 
-        <form>
+        <div class="mb-3">
+            <label for="feedback" class="form-label">Share your feedback here...</label>
+            <textarea class="form-control" id="feedback" rows="5"></textarea>
+        </div>
 
-            <div class="mb-3">
-                <label for="feedback" class="form-label">Share your feedback here...</label>
-                <textarea class="form-control" id="feedback" rows="5"></textarea>
-            </div>
+        <button onclick="addFeedback(document.getElementById('feedback').innerHTML)" class="btn brown-text my-2">Submit</button>
 
-            <button type="submit" class="btn brown-text my-2">Submit</button>
+    </div>
 
-        </form>
+    <div class="container w-75" id="feedbacks">
 
     </div>
 
@@ -48,5 +47,6 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 <script src="/JS/header-footer.js"></script>
+<script src="/JS/feedback.js"></script>
 
 </html>
