@@ -85,11 +85,11 @@ for (let table of six) {
 
 let eight = [
     {
-        img: '/Images/8-people.jpg',
+        img: '/Images/8-people.png',
         no: 11,
     },
     {
-        img: '/Images/8-people.jpg',
+        img: '/Images/8-people.png',
         no: 12,
     },
 ]
