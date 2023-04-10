@@ -30,7 +30,7 @@ for (let table of four) {
         document.getElementById("even-four").innerHTML += `
         <img class="w-100" src="` + table.img + `">
         <p>Table-`+ table.no + `</p>
-        <button id="`+ table.no + `" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button id="`+ table.no + `" type="button" class="btn" onclick="booked(${this.id})" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Book
         </button>`;
     }
@@ -38,10 +38,9 @@ for (let table of four) {
         document.getElementById("odd-four").innerHTML += `
         <img class="w-100" src="` + table.img + `">
         <p>Table-`+ table.no + `</p>
-        <button id="`+ table.no + `" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button id="`+ table.no + `" type="button" onclick="booked(${this.id})" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Book
         </button>`;
-
     }
 }
 let six = [
@@ -68,7 +67,7 @@ for (let table of six) {
         document.getElementById("even-six").innerHTML += `
         <img class="w-100" src="` + table.img + `">
         <p>Table-`+ table.no + `</p>
-        <button id="`+ table.no + `" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" ">
+        <button id="`+ table.no + `" type="button" class="btn" onclick="booked(${this.id})" data-bs-toggle="modal" data-bs-target="#exampleModal" ">
         Book
         </button>`;
     }
@@ -76,7 +75,7 @@ for (let table of six) {
         document.getElementById("odd-six").innerHTML += `
         <img class="w-100" src="` + table.img + `">
         <p>Table-`+ table.no + `</p>
-        <button id="`+ table.no + `" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button id="`+ table.no + `" type="button" class="btn" onclick="booked(${this.id})" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Book
         </button>`;
 
@@ -99,7 +98,7 @@ for (let table of eight) {
         document.getElementById("even-eight").innerHTML += `
         <img class="w-100" src="` + table.img + `">
         <p>Table-`+ table.no + `</p>
-        <button id="`+ table.no + `" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+        <button id="`+ table.no + `" type="button" class="btn" onclick="booked(${this.id})" data-bs-toggle="modal" data-bs-target="#exampleModal" >
         Book
         </button>`;
     }
@@ -107,7 +106,7 @@ for (let table of eight) {
         document.getElementById("odd-eight").innerHTML += `
         <img class="w-100" src="` + table.img + `">
         <p>Table-`+ table.no + `</p>
-        <button id="`+ table.no + `" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button id="`+ table.no + `" type="button" class="btn" onclick="booked(${this.id})" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Book
         </button>`;
     }
@@ -121,10 +120,8 @@ function booking(){
 }
 booking();
 
-function booked(){
-    let id = document.getElementById('exampleModal').parentNode.id;
-    book.push(id);
-    booking();
+function booked(table){
+    document.getElementById(table).classList.add("active","disabled");
 }
 
 function confirmTable(id){
